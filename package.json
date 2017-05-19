@@ -1,0 +1,19 @@
+{
+  "name": "decent-event-handler",
+  "version": "1.0.0",
+  "description": "Decent Studio Event Handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentstudio/decent-event-handler.git"
+  },
+  "author": "Decent Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decentstudio/decent-event-handler/issues"
+  },
+  "homepage": "https://github.com/decentstudio/decent-event-handler#readme"
+}
