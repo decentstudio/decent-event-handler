@@ -1,9 +1,13 @@
 import express from 'express';
+import { PriceService } from '../rename-this-shit/price/price-service'
 
 const router = express.Router();
+const priceService = new PriceService();
 
 router.get('/', (req, res) => {
-  res.send({message: 'Fuck you guy!!'});
+    priceService.getPrice().then((price) => {
+        res.send({ message: price });
+    });
 });
 
 export default router;
