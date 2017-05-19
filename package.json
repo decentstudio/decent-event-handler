@@ -2,9 +2,8 @@
   "name": "decent-event-handler",
   "version": "1.0.0",
   "description": "Decent Studio Event Handler",
-  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon -- node_modules/babel-cli/bin/babel-node.js src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,13 @@
   "bugs": {
     "url": "https://github.com/decentstudio/decent-event-handler/issues"
   },
-  "homepage": "https://github.com/decentstudio/decent-event-handler#readme"
+  "homepage": "https://github.com/decentstudio/decent-event-handler#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
 }
